@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.ethical-framework]
+path = 'contracts/ethical-framework.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.longevity-policy]
 path = 'contracts/longevity-policy.clar'
 clarity_version = 2
